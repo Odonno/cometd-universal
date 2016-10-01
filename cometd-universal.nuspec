@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>cometd-universal</id>
+        <version>1.0.0</version>
+        <title>CometD Universal</title>
+        <authors>David Bottiau</authors>
+        <owners>David Bottiau</owners>
+        <projectUrl>https://github.com/Odonno/cometd-universal</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>CometD Universal is a Windows 10 library for the Bayeux protocol.</description>
+        <releaseNotes>First version</releaseNotes>
+        <copyright>Copyright 2016</copyright>
+        <tags>faye bayeux cometd</tags>
+        <dependencies>
+            <group>
+                <dependency id="Newtonsoft.Json" version="[9.0.1,)" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src=".\cometd\cometd.Universal\bin\Release\cometd.Universal.dll" target="lib\uap10.0" />
+    </files>
+</package>
